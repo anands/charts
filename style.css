@@ -1,0 +1,54 @@
+.row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    background: #FFF;
+}
+
+@media screen and (max-width: 500px) {
+    /*.content {
+        margin-top: 155px!important;
+    }*/
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.basic {
+    padding-left: 20px;
+}
+
+.charts {
+    padding: 5px;
+}
+
+.percentage {
+    padding-left: 20px;
+}
+
+[class*="col-"] {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.in-text {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #EEE;
+    width: 50px;
+    max-width: 100px;
+}
+
+textarea.points {
+    height: 35px!important;
+    margin-bottom: 5px;
+}
+
