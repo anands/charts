@@ -4,7 +4,6 @@ angular.module('app').controller('chartController', ['$scope', chartController])
 function chartController($scope) {
     $scope.draw = function() {
         var dataSets = [];
-        console.log($scope.userInputs.dataSets);
         for (var i = 0; i < $scope.userInputs.dataSets.length; i++) {
             dataSets.push($scope.userInputs.dataSets[i].split(","));
             console.log($scope.userInputs.dataSets[i]);
@@ -19,7 +18,6 @@ function chartController($scope) {
                 "y": xyLabels[1]
             }
         }
-        console.log($scope.chartData);
     }
     $scope.addPoints = function() {
         $scope.userInputs.dataSets.push("");
