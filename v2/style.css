@@ -1,0 +1,13 @@
+body {
+    margin: 10px;
+}
+
+.inputs {}
+
+.inputs > input {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 10px 0px;
+}
